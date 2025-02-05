@@ -8,7 +8,7 @@ System.out.println("Animal make sound!");
 class dog1 extends animal1{
 	@Override
 	void makesound() {
-		System.out.println("dog barks!");
+		System.out.println("dog barking!");
 	}
 }
 
