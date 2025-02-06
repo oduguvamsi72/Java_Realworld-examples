@@ -78,6 +78,6 @@ System.out.println("employee email:"+e.getemail());
 System.out.println("employee salary:"+e.getSalary());
 HRdepart hr=new HRdepart();
 hr.incsalary(e,5000.0);
-System.out.println("updated salary:"+e.getSalary());
+System.out.println("updated salary is:"+e.getSalary());
 }
 }
