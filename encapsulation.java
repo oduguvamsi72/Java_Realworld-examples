@@ -73,9 +73,9 @@ class HRdepart {
 public class encapsulation {
 public static void main(String[] args) {
 	emp e=new emp(2001,"vamsi","vamsi@gmail.com",24000.0);
-System.out.println("employee name:"+e.getname());
-System.out.println("employee email:"+e.getemail());
-System.out.println("employee salary:"+e.getSalary());
+System.out.println("employee name is:"+e.getname());
+System.out.println("employee email is:"+e.getemail());
+System.out.println("employee salary is:"+e.getSalary());
 HRdepart hr=new HRdepart();
 hr.incsalary(e,5000.0);
 System.out.println("updated salary is:"+e.getSalary());
